@@ -40,7 +40,7 @@ DEFINE CLASS buscarCep as custom
 	   	  
 	      msgErro = STREXTRACT(retorno, "<erro>","</erro>")
 	      IF !EMPTY(ALLTRIM(msgErro))
-	         this.mensagem = "Erro ao consultar CEP ou CEP inválido"
+	         this.mensagem = msgErro
 	         RETURN 0
 	      ENDIF 
 	      
