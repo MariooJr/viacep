@@ -1,5 +1,5 @@
 ***************
-DEFINE CLASS buscarCep as custom
+DEFINE CLASS ViaCep as Custom
    *Inicializa a classe e adiciona as propriedaes
    PROCEDURE init
       this.AddProperty("mensagem","")
