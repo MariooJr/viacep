@@ -11,7 +11,7 @@ Qualquer dúvida/sugestão, por favor, entre em contato.
 # Exemplo de uso
 
 ```
-oCep = CREATEOBJECT("buscarCep")
+oCep = CREATEOBJECT("ViaCep")
 
 *Chama o metodo para pesquisar o cep
 oCep.pesquisar("15130682")
