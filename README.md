@@ -9,9 +9,6 @@ Qualquer dúvida/sugestão, por favor, entre em contato.
 
 # Exemplo de uso
 
-**Cria instancia da classe
-
-
 ```
 oCep = CREATEOBJECT("buscarCep")
 
